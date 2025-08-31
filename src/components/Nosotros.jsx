@@ -3,11 +3,11 @@ import Chinchilla from '../assets/CHINCHILLA.PNG'
 import Bunny from '../assets/BUNNY.png'
 import PerroGato from '../assets/PERROYGATO.png'
 
-const Servicios = () => {
+const Nosotros = () => {
   return (
     <section className=''>
         <div >
-          <h2 className='py-15 flex justify-center text-black text-5xl'>Sobre Nosotros</h2>
+          <h2 className='py-15 flex justify-center text-black text-5xl'>Sobre nosotros</h2>
         </div>
 
         <div>
@@ -47,4 +47,4 @@ const Servicios = () => {
   )
 }
 
-export default Servicios
+export default Nosotros
