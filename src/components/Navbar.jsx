@@ -13,8 +13,8 @@ const Navbar = () => {
             <div>
                 <ul className='flex space-x-4'>
                     <li> <a className='text-white sm:text-lg text-sm hover:text-yellow-600' href="">Inicio</a></li>
-                    <li> <a className='text-white sm:text-lg text-sm hover:text-yellow-600' href="">Servicios</a></li>
                     <li> <a className='text-white sm:text-lg text-sm hover:text-yellow-600' href="">Nosotros</a></li>
+                    <li> <a className='text-white sm:text-lg text-sm hover:text-yellow-600' href="">Servicios</a></li>
                     <li> <a className='text-white sm:text-lg text-sm hover:text-yellow-600' href="">Contacto</a></li>
                 </ul>
             </div>
