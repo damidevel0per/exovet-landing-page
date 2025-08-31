@@ -7,7 +7,7 @@ const Nosotros = () => {
   return (
     <section className=''>
         <div >
-          <h2 className='py-15 flex justify-center text-black text-5xl'>Sobre nosotros</h2>
+          <h2 className='font-semibold py-15 flex justify-center text-black text-5xl'>Sobre nosotros</h2>
         </div>
 
         <div>

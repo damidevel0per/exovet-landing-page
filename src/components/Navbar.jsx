@@ -11,7 +11,7 @@ const Navbar = () => {
             </div>
 
             <div>
-                <ul className='flex space-x-4'>
+                <ul className='font-semibold flex space-x-4'>
                     <li> <a className='text-white sm:text-lg text-sm hover:text-yellow-600' href="">Inicio</a></li>
                     <li> <a className='text-white sm:text-lg text-sm hover:text-yellow-600' href="">Nosotros</a></li>
                     <li> <a className='text-white sm:text-lg text-sm hover:text-yellow-600' href="">Servicios</a></li>
