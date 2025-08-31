@@ -16,7 +16,7 @@ const Servicios = () => {
     <div class="grid grid-cols-2 divide-x-4 divide-yellow-400">
         <div className='flex flex-col items-center'>
             <h2 className='font-semibold text-2xl text-center'>Atención en nuestro consultorio</h2>
-            <p className='text-lg text-center mb-6'>Veni con o sin sita previa a plantearnos tu duda sobre tu mascota.</p>
+            <p className='text-lg text-center mb-6'>Veni con o sin cita previa a plantearnos tu duda sobre tu mascota.</p>
             <img className='w-[600px] max-w-full rounded-lg shadow-lg' src={BunnyConsulta} alt="" />
         </div>
         <div className='flex flex-col items-center'>
