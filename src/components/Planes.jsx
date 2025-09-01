@@ -13,6 +13,7 @@ const Planes = () => {
       <div class="bg-white rounded-2xl shadow-lg p-6 flex flex-col hover:scale-102 transition duration-500">
         <h3 class="text-xl font-semibold text-gray-800 mb-4">Básico</h3>
         <p class="text-gray-500 mb-6">Cuidado Esencial</p>
+        <p className="text-2xl font-bold text-purple-700 mb-6">$15 / mes</p>
         <ul class="flex-1 text-gray-600 text-left space-y-3 mb-6">
           <li>✔️ Consultas veterinarias</li>
           <li>✔️ Vacunación anual</li>
@@ -29,6 +30,7 @@ const Planes = () => {
       <div class="bg-white rounded-2xl shadow-xl p-6 flex flex-col hover:scale-102 transition duration-500">
         <h3 class="text-xl font-semibold text-gray-800 mb-4">Intermedio</h3>
         <p class="text-gray-500 mb-6">Protección Total</p>
+        <p className="text-2xl font-bold text-purple-700 mb-6">$30 / mes</p>
         <ul class="flex-1 text-gray-600 text-left space-y-3 mb-6">
           <li>✔️ Todo lo del plan Básico</li>
           <li>✔️ Procedimientos quirúrgicos menores</li>
@@ -45,6 +47,7 @@ const Planes = () => {
       <div class="bg-white rounded-2xl shadow-lg p-6 flex flex-col hover:scale-102 transition duration-500">
         <h3 class="text-xl font-semibold text-gray-800 mb-4">Premium</h3>
         <p class="text-gray-500 mb-6">Salud Premium</p>
+        <p className="text-2xl font-bold text-purple-700 mb-6">$50 / mes</p>
         <ul class="flex-1 text-gray-600 text-left space-y-3 mb-6">
           <li>✔️ Todo lo del plan Intermedio</li>
           <li>✔️ Cirugías mayores</li>
