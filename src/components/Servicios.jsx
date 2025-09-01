@@ -6,7 +6,7 @@ import Estudio from '../assets/ESTUDIO-CLINICO.JPG'
 
 const Servicios = () => {
   return (
-    <section className='py-20 bg-purple-700'>
+    <section id='servicios' className='py-20 bg-purple-700'>
     <div>
         <div>
           <h2 className='font-semibold py-15 flex justify-center text-white text-5xl'>Servicios que brindamos</h2>
