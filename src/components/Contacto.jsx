@@ -4,7 +4,8 @@ import MapaDireccion from './MapaDireccion'
 const Contacto = () => {
   return (
     <section id="contacto" className='bg-[url("data:image/svg+xml,%3Csvg%20width%3D%2720%27%20height%3D%2720%27%20viewBox%3D%270%200%2020%2020%27%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%3Cg%20fill%3D%22%238200db%22%20fill-opacity%3D%220.03%22%20fill-rule%3D%22evenodd%22%3E%3Ccircle%20cx%3D%223%22%20cy%3D%223%22%20r%3D%223%22/%3E%3Ccircle%20cx%3D%2213%22%20cy%3D%2213%22%20r%3D%223%22/%3E%3C/g%3E%3C/svg%3E")] 
-        h-screen w-full bg-[length:100px_105px] bg-white-300 h-[100vh]'>
+         w-full bg-[length:100px_105px] bg-white-300'>
+
         <div className=''>
           <h2 className='font-semibold py-15 flex justify-center text-black text-5xl'>Contactate con nosotros</h2>
         </div>
@@ -16,7 +17,7 @@ const Contacto = () => {
                     <div className=''>
                         <label className='text-2xl py-10 text-gray-900' htmlFor="">Nombre</label>
                     </div>
-                    <input className='my-3 inset-shadow-xs bg-white rounded my-2 h-10 w-150 px-3' placeholder='Ej:Damian Perez' type="text" />
+                    <input className='my-3 inset-shadow-xs bg-white rounded my-2 h-10 w-150 px-3' placeholder='Ej: Damian Perez' type="text" />
                 </div>
                 <div>
                     <div>
@@ -38,6 +39,12 @@ const Contacto = () => {
                 </div>
             </form>
         </div>
+
+        <div>
+            <h2 className='font-semibold py-25 flex justify-center text-black text-5xl'>Tambien podes venir a visitarnos!</h2>
+            <MapaDireccion/>
+        </div>
+
     </section>
   )
 }
