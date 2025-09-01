@@ -15,7 +15,8 @@ const Navbar = () => {
         <nav className='fixed top-0 w-full shadow-md bg-yellow-300 z-100'>
             <div className='flex justify-between items-center sm:px-12 sm:py-6 px-4 py-3'>
                 <div>
-                    <img src={Logo} alt="Logo de pagina" className='w-[150px]' />
+                    <a href="#inicio"><h1 className='text-3xl font-bold text-purple-700'>Exo<span className='text-purple-600'>Vet</span> </h1></a>
+                    {/*<img src={Logo} alt="Logo de pagina" className='w-[150px]' />*/}
                 </div>
                 <div>
                     <ul className='font-semibold flex space-x-4'>
