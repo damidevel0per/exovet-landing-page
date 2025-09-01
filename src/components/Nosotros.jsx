@@ -5,7 +5,7 @@ import PerroGato from '../assets/PERROYGATO.png'
 
 const Nosotros = () => {
   return (
-    <section id='nosotros' className=''>
+    <section id='nosotros' className='pt-20'>
         <div className='bg-purple-700'>
           <h2 className='font-semibold py-15 flex justify-center text-white text-5xl'>Sobre nosotros</h2>
         </div>
@@ -44,8 +44,6 @@ const Nosotros = () => {
         </div>
         </div>
         </div>
-
-
     </section>
 
   )

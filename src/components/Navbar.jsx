@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import Logo from '../assets/LOGO_EXOVET.PNG';
 
 const Navbar = () => {
-    // Aquí defines la función handleScoll.
+
     const handleScoll = (e, sectionId) => {
         e.preventDefault();
         const section = document.getElementById(sectionId);
@@ -12,7 +12,7 @@ const Navbar = () => {
     };
   
     return (
-        <nav id='inicio' className='shadow-md bg-yellow-300'>
+        <nav className='fixed top-0 w-full shadow-md bg-yellow-300 z-100'>
             <div className='flex justify-between items-center sm:px-12 sm:py-6 px-4 py-3'>
                 <div>
                     <img src={Logo} alt="Logo de pagina" className='w-[150px]' />

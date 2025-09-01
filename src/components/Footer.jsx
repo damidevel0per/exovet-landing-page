@@ -37,7 +37,7 @@ function Footer() {
 
 
       <div className="mt-10 border-t border-yellow-600 pt-4 text-center text-sm">
-        © {new Date().getFullYear()} ExoVet. Todos los derechos reservados.
+        © {new Date().getFullYear()} ExoVet. Todos los derechos reservados. Desarrollado por Damian Perez
       </div>
     </footer>
   )
