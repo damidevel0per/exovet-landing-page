@@ -11,7 +11,7 @@ const Contacto = () => {
             
             <div className='flex justify-center'>
                 <form 
-                    className='shadow-xl flex flex-col w-full max-w-2xl mx-5 md:mx-auto rounded text-purple-900 bg-yellow-300 font-semibold p-8' 
+                    className='shadow-xl flex flex-col w-full max-w-2xl mx-5 md:mx-auto rounded-2xl text-purple-900 bg-yellow-300 font-semibold p-8' 
                     action=""
                 >
                     <h2 className='text-3xl text-center mb-6 text-gray-900'>Completa los campos</h2>

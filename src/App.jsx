@@ -8,8 +8,6 @@ import Footer from './components/Footer'
 import Contacto from './components/Contacto'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
       <Navbar/>
@@ -18,7 +16,6 @@ function App() {
       <Servicios/>
       <Contacto/>
       <Footer/>
-
     </>
   )
 }

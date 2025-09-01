@@ -3,13 +3,14 @@ import BunnyConsulta from '../assets/BUNNY-CONSULTORIO.JPG'
 import PerroCirugia from '../assets/PERRO-CIRUGIA.JPG'
 import PerroDomicilio from '../assets/PERRO-DOMICILIO.JPG'
 import Estudio from '../assets/ESTUDIO-CLINICO.JPG'
+import Planes from './Planes.jsx'
 
 const Servicios = () => {
   return (
     <section id='servicios' className='py-20 bg-purple-700'>
     <div>
         <div>
-          <h2 className='font-semibold py-15 flex justify-center text-white text-5xl'>Servicios que brindamos</h2>
+          <h2 className='font-bold py-15 flex justify-center text-white text-5xl'>Servicios que brindamos</h2>
         </div>
     </div>
 
@@ -40,6 +41,9 @@ const Servicios = () => {
         </div>
     </div>
 
+    <div>
+        <Planes/>
+    </div>
 
     </section>
 
