@@ -26,7 +26,7 @@ const Servicios = () => {
         </div>
     </div>
 
-    <div class="py-20 grid grid-cols-2 divide-x-4 divide-purple-700">
+    <div class="py-20 grid grid-cols-2 divide-x-4 divide-yellow-300">
         <div className='flex flex-col items-center'>
             <h2 className='font-semibold text-2xl text-center text-yellow-300'>Diagnóstico y estudios</h2>
             <p className='text-lg text-center mb-6 text-yellow-100'>Análisis, radiografías y estudios complementarios.</p>
