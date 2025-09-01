@@ -5,9 +5,9 @@ import PerroGato from '../assets/PERROYGATO.png'
 
 const Nosotros = () => {
   return (
-    <section id='nosotros' className='pt-20'>
-        <div className='bg-purple-700'>
-          <h2 className='font-bold py-15 flex justify-center text-white text-5xl'>Sobre nosotros</h2>
+    <section id='nosotros' className='pt-20 bg-yellow-300'>
+        <div className='bg-yellow-300'>
+          <h2 className='font-bold py-5 flex justify-center text-purple-700 text-5xl'>Sobre nosotros</h2>
         </div>
 
         <div>
