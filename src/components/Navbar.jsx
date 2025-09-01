@@ -12,10 +12,10 @@ const Navbar = () => {
 
             <div>
                 <ul className='font-semibold flex space-x-4'>
-                    <li> <a className='text-white sm:text-lg text-sm hover:text-yellow-600' href="">Inicio</a></li>
-                    <li> <a className='text-white sm:text-lg text-sm hover:text-yellow-600' href="">Nosotros</a></li>
-                    <li> <a className='text-white sm:text-lg text-sm hover:text-yellow-600' href="">Servicios</a></li>
-                    <li> <a className='text-white sm:text-lg text-sm hover:text-yellow-600' href="">Contacto</a></li>
+                    <li> <a className='text-purple-700 sm:text-lg text-sm hover:text-white hover:transition duration-500' href="">Inicio</a></li>
+                    <li> <a className='text-purple-700 sm:text-lg text-sm hover:text-white hover:transition duration-500' href="">Nosotros</a></li>
+                    <li> <a className='text-purple-700 sm:text-lg text-sm hover:text-white hover:transition duration-500' href="">Servicios</a></li>
+                    <li> <a className='text-purple-700 sm:text-lg text-sm hover:text-white hover:transition duration-500' href="">Contacto</a></li>
                 </ul>
             </div>
         </div>

@@ -6,7 +6,7 @@ const Hero = () => {
         <div>
             <h1 className='font-semibold text-5xl text-yellow'>Una mascota saludable <br />es una mascota <span className='text-yellow-300'>feliz!</span></h1>
             <div className='py-5'>
-                <button className='font-semibold bg-yellow-300 rounded-full px-15 py-3 text-white hover:bg-yellow-400'>Agendá tu cita</button>
+                <button className='font-semibold text-white bg-purple-700 rounded-full px-15 py-3 hover:bg-yellow-300 hover:text-purple-700 hover:transition duration-500 hover:cursor-pointer'>Agendá tu cita</button>
             </div>
         </div>
         <div>

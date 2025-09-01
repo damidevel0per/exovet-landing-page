@@ -2,7 +2,7 @@ import React from 'react'
 
 function Footer() {
   return (
-    <footer className="bg-yellow-400 text-white py-10 mt-20">
+    <footer className="bg-yellow-300 text-purple-700 py-10 mt-20">
       <div className="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8">
 
         {/* Logo / Nombre */}
